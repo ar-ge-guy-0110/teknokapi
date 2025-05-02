@@ -1,0 +1,10 @@
+<?php
+    unset($_SESSION["kullanici_email"]);
+    unset($_SESSION["mesaj_ana"]);
+    unset($_SESSION["mesaj_aciklama"]);
+    unset($_SESSION["mesaj_yonlendirme"]);
+    unset($_SESSION["resim_yolu"]);
+    session_destroy();
+    header("Location:index.php");
+    exit();
+?>

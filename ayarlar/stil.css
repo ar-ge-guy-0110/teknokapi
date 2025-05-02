@@ -1,0 +1,417 @@
+html, body{
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    border: 0;
+    outline: 0;
+    background: #ffffff;
+    font-family: "Open Sans", Arial, "Helvetica Neue", Helvetica, "sans-serif";
+    font-size: 14px;
+    color: #646464;
+    line-height: 1.5;
+    font-style: normal;
+    font-variant: normal;
+    font-weight: normal;
+    text-decoration: none;
+}
+.beaumenu1 a:link, .beaumenu1 a:hover, .beaumenu1 a:active, .beaumenu1 a:visited{
+    font-family: "Open Sans", Arial, "Helvetica Neue", Helvetica, "sans-serif";
+    font-size: 14px;
+    color: #151515;
+    line-height: 1.5;
+    font-style: normal;
+    font-variant: normal;
+    font-weight: normal;
+    text-decoration: none;
+}
+.beaumenu2 a:link, .beaumenu2 a:hover, .beaumenu2 a:active, .beaumenu2 a:visited{
+    font-family: "Open Sans", Arial, "Helvetica Neue", Helvetica, "sans-serif";
+    font-size: 14px;
+    color: #151515;
+    line-height: 1.5;
+    font-style: normal;
+    font-variant: normal;
+    font-weight: bold;
+    text-decoration: none;
+}
+.beaumenu3 a:link, .beaumenu3 a:hover, .beaumenu3 a:active, .beaumenu3 a:visited{
+    font-family: "Open Sans", Arial, "Helvetica Neue", Helvetica, "sans-serif";
+    font-size: 14px;
+    color: #646464;
+    line-height: 1.5;
+    font-style: normal;
+    font-variant: normal;
+    font-weight: bold;
+    text-decoration: none;
+}
+.beauslot{
+    width: 95%;
+    height: 30px;
+    padding: 0px 10px;
+}
+.beauslotmin{
+    width: 75%;
+    height: 32px;
+    padding: 0px 10px;
+    text-align: center;
+    font-weight: bold;
+    font-size: 16px;
+}
+.beaucombobox{
+    width: 95%;
+    height: 40px;
+    padding: 0px 10px;
+}
+.beaucombobox2{
+    width: 100%;
+    height: 40px;
+    padding: 0px 10px;
+}
+.beaubigwriting{
+    width: 95%;
+    height: 100px;
+    padding: 10px 10px;
+}
+.beaubgreen{
+    height: 30px;
+    border: 1px solid #3cccb9;
+    background: #151515;
+    padding: 5px 30px;
+    color: white;
+}
+.beaubgreen:hover{
+    height: 30px;
+    border: 1px solid #151515;
+    background: #3cccb9;
+    padding: 5px 30px;
+    cursor: pointer;
+    color: black;
+}
+.beaubgreen2{
+    height: 30px;
+    border: 1px solid #3cccb9;
+    background: #151515;
+    padding: 5px 50px;
+    color: white;
+}
+.beaubgreen2:hover{
+    height: 30px;
+    border: 1px solid #151515;
+    background: #3cccb9;
+    padding: 5px 50px;
+    cursor: pointer;
+    color: black;
+}
+.beaulink1 a:link, .beaulink1 a:hover, .beaulink1 a:active, .beaulink1 a:visited{
+    font-family: "Open Sans", Arial, "Helvetica Neue", Helvetica, "sans-serif";
+    font-size: 14px;
+    color: #151515;
+    line-height: 1.5;
+    font-style: normal;
+    font-variant: normal;
+    font-weight: normal;
+    text-decoration: none;
+}
+.beaulink2 a:link, .beaulink2 a:hover, .beaulink2 a:active, .beaulink2 a:visited{
+    font-family: "Open Sans", Arial, "Helvetica Neue", Helvetica, "sans-serif";
+    font-size: 14px;
+    color: #151515;
+    line-height: 1.5;
+    font-style: normal;
+    font-variant: normal;
+    font-weight: bold;
+    text-decoration: none;
+}
+.beaulinkforanchor a, .beaulinkforanchor a:link, .beaulinkforanchor a:hover, .beaulinkforanchor a:active, .beaulinkforanchor a:visited{
+    font-family: "Open Sans", Arial, "Helvetica Neue", Helvetica, "sans-serif";
+    font-size: 14px;
+    color: #151515;
+    line-height: 1.5;
+    font-style: normal;
+    font-variant: normal;
+    font-weight: normal;
+    text-decoration: none;
+}
+
+.beaulinkforanchorbold a, .beaulinkforanchorbold a:link, .beaulinkforanchorbold a:hover, .beaulinkforanchorbold a:active, .beaulinkforanchorbold a:visited{
+    font-family: "Open Sans", Arial, "Helvetica Neue", Helvetica, "sans-serif";
+    font-size: 14px;
+    color: #151515;
+    line-height: 1.5;
+    font-style: normal;
+    font-variant: normal;
+    font-weight: bold;
+    text-decoration: none;
+}
+.sorubox{
+    width: 100%;
+    height: 30px;
+    padding-top: 10px;
+    font-size: 14px;
+    color: #303030;
+    line-height: 1.5;
+    font-style: normal;
+    font-variant: normal;
+    font-weight: bold;
+    text-decoration: none;
+    border-bottom: 1px dashed #3cccb9;
+    cursor: pointer;
+}
+.sorubox:hover{
+    background: #f1f1f1;
+}
+.cevapbox{
+    width: 100%;
+    margin-top: 10px;
+    font-size: 14px;
+    line-height: 1.5;
+}
+.beauanchorgreen{
+    height: 30px;
+    border: 1px solid #3cccb9;
+    background: #151515;
+    padding: 5px 30px;
+    color: white;
+    text-decoration: none;
+}
+.beauanchorgreen:hover{
+    height: 30px;
+    border: 1px solid #151515;
+    background: #3cccb9;
+    padding: 5px 30px;
+    cursor: pointer;
+    color: black;
+}
+.pagingContainer{
+    display: block;
+    width: 100%;
+    height: auto;
+    margin: 0;
+    padding: 0;
+    border: 0;
+    outline: 0;
+    text-align: center;
+    text-decoration: none;
+}
+.pagingContainerTextArea{
+    display: block;
+    width: 100%;
+    height: auto;
+    margin: 0;
+    padding: 0;
+    border: 0;
+    outline: 0;
+    text-align: center;
+    text-decoration: none;
+}
+.pagingContainerTextAreaForNumbers{
+    display: block;
+    width: 100%;
+    height: auto;
+    margin: 0;
+    padding: 0;
+    border: 0;
+    outline: 0;
+    text-align: center;
+    text-decoration: none;
+}
+.pageActive{
+    display: inline-block;
+    width: auto;
+    height: 20px;
+    margin: 0px 0.5px;
+    padding: 5px 7.5px;
+    background: #F6F6F6;
+    border: 1px solid #DADADA;
+    outline: 0;
+    color: #FF0000;
+    font-weight: bold;
+    text-decoration: none;
+}
+.pagePassive{
+    display: inline-block;
+    width: auto;
+    height: 20px;
+    margin: 0px 0.5px;
+    padding: 5px 7.5px;
+    background: #F6F6F6;
+    border: 1px solid #DADADA;
+    outline: 0;
+    color: #646464;
+    font-weight: normal;
+    text-decoration: none;
+}
+.pagePassive a:link, .pagePassive a:hover, .pagePassive a:active, .pagePassive a:visited{
+    color: #646464;
+    font-weight: normal;
+    text-decoration: none;
+}
+.beaubigwriting2{
+    width: 95%;
+    height: 230px;
+    padding: 10px 10px;
+}
+.aramaAlani{
+    display: block;
+    width: 100%;
+    height: 35px;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    border: 0;
+    outline: 0;
+}
+.aramaAlaniButtonArea{
+    /*display: inline-block;*/
+    float: right;
+    width: 60px;
+    height: 35px;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    border: 0;
+    outline: 0;
+    text-align: left;
+}
+.aramaAlaniInputArea{
+    /*display: inline-block;*/
+    float: right;
+    width: -webkit-calc(100% - 60px);
+    width: -moz-calc(100% - 60px);
+    width: -o-calc(100% - 60px);
+    width: -ms-calc(100% - 60px);
+    width: calc(100% - 60px);
+    height: 35px;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    border: 0;
+    outline: 0;
+    text-align: left;
+}
+.aramaAlaniButton{
+    display: block;
+    width: 60px;
+    height: 35px;
+    margin: 0;
+    padding: 0;
+    border: 1px solid #646464;
+    outline: 0;
+    background: url("../resimler/icons/magnifying-glass.png");
+    background-repeat: no-repeat;
+    background-position: center left 19px; /*---> 60 - 2 = 58 -> 58 - 16 = 42 -> 42 - 2 = 40 -> 40 / 2 = 20*/
+}
+.aramaAlaniButton:hover{
+    cursor: pointer;
+}
+.aramaAlaniInput{
+    display: block;
+    float: left;
+    width: -webkit-calc(100% - 42px);
+    width: -moz-calc(100% - 42px);
+    width: -o-calc(100% - 42px);
+    width: -ms-calc(100% - 42px);
+    width: calc(100% - 42px);
+    height: 33px;
+    margin: 0;
+    padding: 0;
+    padding-left: 30px;
+    padding-right: 10px;
+    background: url("../resimler/icons/question.png");
+    background-repeat: no-repeat;
+    background-position: center left 10px;
+    border: 1px solid #646464;
+    outline: 0;
+    text-align: left;
+}
+.SepeteEklemeButonu{
+    width: 100%;
+    height: 35px;
+    margin: 0;
+    padding: 5px 0;
+    background: #151515;
+    border: 1px solid #3cccb9;
+    cursor: pointer;
+    color: white;
+    outline: none;
+    text-align: center;
+    font-weight: bold;
+}
+.SepeteEklemeButonu:hover{
+    width: 100%;
+    height: 35px;
+    margin: 0;
+    padding: 5px 0;
+    background: #3cccb9;
+    border: 1px solid #151515;
+    cursor: pointer;
+    color: black;
+}
+.SepetDevamButtonu{
+    width: 100%;
+    height: 35px;
+    margin: 0;
+    padding: 5px 0;
+    background: #151515;
+    border: 1px solid #3cccb9;
+    cursor: pointer;
+    color: white;
+    outline: none;
+    text-align: center;
+    font-weight: bold;
+    border-radius: 3px;
+}
+.SepetDevamButtonu a{
+    text-decoration: none;
+    color: white;
+}
+.SepetDevamButtonu a img{
+    float: left;
+    margin-top: 5px;
+    /*margin-left: 15px;*/
+    margin-left: 73px;
+}
+.SepetDevamButtonu a div{
+    float: left;
+    margin-top: 10px;
+    /*margin-left: 50px;*/
+    margin-left: 5px;
+}
+.SepetDevamButtonu:hover{
+    width: 100%;
+    height: 35px;
+    margin: 0;
+    padding: 5px 0;
+    background: #3cccb9;
+    border: 1px solid #151515;
+    cursor: pointer;
+    color: black;
+}
+.AlisverisiTamamlaButonu{
+    width: 100%;
+    height: 50px;
+    margin: 0;
+    padding: 5px 0;
+    background: #151515;
+    border: 1px solid #3cccb9;
+    cursor: pointer;
+    color: white;
+    outline: none;
+    text-align: center;
+    font-weight: bold;
+    border-radius: 3px;
+}
+.AlisverisiTamamlaButonu:hover{
+    width: 100%;
+    height: 50px;
+    margin: 0;
+    padding: 5px 0;
+    background: #3cccb9;
+    border: 1px solid #151515;
+    cursor: pointer;
+    color: black;
+}
+.KKAlan{
+    display: none;
+}

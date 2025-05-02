@@ -1,0 +1,10 @@
+<?php
+    unset($_SESSION["kullanici_Yonetici"]);
+    unset($_SESSION["mesaj_ana_y"]);
+    unset($_SESSION["mesaj_aciklama_y"]);
+    unset($_SESSION["mesaj_yonlendirme_y"]);
+    unset($_SESSION["resim_yolu_y"]);
+    session_destroy();
+    header("Location:index.php");
+    exit();
+?>

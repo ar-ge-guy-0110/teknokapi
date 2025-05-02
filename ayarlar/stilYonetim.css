@@ -1,0 +1,207 @@
+html, body{
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    border: 0;
+    outline: 0;
+    background: #ffffff;
+    font-family: "Open Sans", Arial, "Helvetica Neue", Helvetica, "sans-serif";
+    font-size: 14px;
+    color: #646464;
+    line-height: 1.5;
+    font-style: normal;
+    font-variant: normal;
+    font-weight: normal;
+    text-decoration: none;
+}
+.beauslot{
+    width: 95%;
+    height: 30px;
+    padding: 0px 10px;
+}
+.beaubgreen{
+    height: 30px;
+    border: 1px solid #3cccb9;
+    background: #151515;
+    padding: 5px 30px;
+    color: white;
+}
+.beaubgreen:hover{
+    height: 30px;
+    border: 1px solid #151515;
+    background: #3cccb9;
+    padding: 5px 30px;
+    cursor: pointer;
+    color: black;
+}
+.beaulink1 a:link, .beaulink1 a:hover, .beaulink1 a:active, .beaulink1 a:visited{
+    font-family: "Open Sans", Arial, "Helvetica Neue", Helvetica, "sans-serif";
+    font-size: 14px;
+    color: #151515;
+    line-height: 1.5;
+    font-style: normal;
+    font-variant: normal;
+    font-weight: normal;
+    text-decoration: none;
+}
+.beaumenulink a:link, .beaumenulink a:hover, .beaumenulink a:active, .beaumenulink a:visited{
+    font-family: "Open Sans", Arial, "Helvetica Neue", Helvetica, "sans-serif";
+    font-size: 14px;
+    color: #171717;
+    line-height: 1.5;
+    font-style: normal;
+    font-variant: normal;
+    font-weight: bold;
+    text-decoration: none;
+}
+.beaubigwriting{
+    width: 95%;
+    height: 150px;
+    padding: 10px 10px;
+}
+.beaucombobox2{
+    width: 100%;
+    height: 40px;
+    padding: 0px 10px;
+}
+.aramaAlani{
+    display: block;
+    width: 100%;
+    height: 35px;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    border: 0;
+    outline: 0;
+}
+.aramaAlaniButtonArea{
+    /*display: inline-block;*/
+    float: right;
+    width: 60px;
+    height: 35px;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    border: 0;
+    outline: 0;
+    text-align: left;
+}
+.aramaAlaniInputArea{
+    /*display: inline-block;*/
+    float: right;
+    width: -webkit-calc(100% - 60px);
+    width: -moz-calc(100% - 60px);
+    width: -o-calc(100% - 60px);
+    width: -ms-calc(100% - 60px);
+    width: calc(100% - 60px);
+    height: 35px;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    border: 0;
+    outline: 0;
+    text-align: left;
+}
+.aramaAlaniButton{
+    display: block;
+    width: 60px;
+    height: 35px;
+    margin: 0;
+    padding: 0;
+    border: 1px solid #646464;
+    outline: 0;
+    background: url("../resimler/icons/magnifying-glass.png");
+    background-repeat: no-repeat;
+    background-position: center left 19px; /*---> 60 - 2 = 58 -> 58 - 16 = 42 -> 42 - 2 = 40 -> 40 / 2 = 20*/
+}
+.aramaAlaniButton:hover{
+    cursor: pointer;
+}
+.aramaAlaniInput{
+    display: block;
+    float: left;
+    width: -webkit-calc(100% - 42px);
+    width: -moz-calc(100% - 42px);
+    width: -o-calc(100% - 42px);
+    width: -ms-calc(100% - 42px);
+    width: calc(100% - 42px);
+    height: 33px;
+    margin: 0;
+    padding: 0;
+    padding-left: 30px;
+    padding-right: 10px;
+    background: url("../resimler/icons/question.png");
+    background-repeat: no-repeat;
+    background-position: center left 10px;
+    border: 1px solid #646464;
+    outline: 0;
+    text-align: left;
+}
+.pagingContainer{
+    display: block;
+    width: 100%;
+    height: auto;
+    margin: 0;
+    padding: 0;
+    border: 0;
+    outline: 0;
+    text-align: center;
+    text-decoration: none;
+}
+.pagingContainerTextArea{
+    display: block;
+    width: 100%;
+    height: auto;
+    margin: 0;
+    padding: 0;
+    border: 0;
+    outline: 0;
+    text-align: center;
+    text-decoration: none;
+}
+.pagingContainerTextAreaForNumbers{
+    display: block;
+    width: 100%;
+    height: auto;
+    margin: 0;
+    padding: 0;
+    border: 0;
+    outline: 0;
+    text-align: center;
+    text-decoration: none;
+}
+.pageActive{
+    display: inline-block;
+    width: auto;
+    height: 20px;
+    margin: 0px 0.5px;
+    padding: 5px 7.5px;
+    background: #F6F6F6;
+    border: 1px solid #DADADA;
+    outline: 0;
+    color: #FF0000;
+    font-weight: bold;
+    text-decoration: none;
+}
+.pagePassive{
+    display: inline-block;
+    width: auto;
+    height: 20px;
+    margin: 0px 0.5px;
+    padding: 5px 7.5px;
+    background: #F6F6F6;
+    border: 1px solid #DADADA;
+    outline: 0;
+    color: #646464;
+    font-weight: normal;
+    text-decoration: none;
+}
+.pagePassive a:link, .pagePassive a:hover, .pagePassive a:active, .pagePassive a:visited{
+    color: #646464;
+    font-weight: normal;
+    text-decoration: none;
+}
+.input-error{
+    outline: 1px solid red;
+}

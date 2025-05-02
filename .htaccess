@@ -1,0 +1,30 @@
+RewriteEngine On
+RewriteBase /teknokapi/
+
+RewriteRule ^web$ /teknokapi/index.php [L,NC]
+RewriteRule ^hesabim$ /teknokapi/index.php?SO=40 [L,NC]
+RewriteRule ^cikis$ /teknokapi/index.php?SO=39 [L,NC]
+RewriteRule ^sepetim$ /teknokapi/index.php?SO=61 [L,NC]
+RewriteRule ^giris$ /teknokapi/index.php?SO=32 [L,NC]
+RewriteRule ^uye-ol$ /teknokapi/index.php?SO=22 [L,NC]
+RewriteRule ^hakkimizda$ /teknokapi/index.php?SO=1 [L,NC]
+RewriteRule ^uyelik-sozlesmesi$ /teknokapi/index.php?SO=2 [L,NC]
+RewriteRule ^banka-hesaplarimiz$ /teknokapi/index.php?SO=8 [L,NC]
+RewriteRule ^kullanim-kosullari$ /teknokapi/index.php?SO=3 [L,NC]
+RewriteRule ^havale-bildirim-formu$ /teknokapi/index.php?SO=9 [L,NC]
+RewriteRule ^sorular$ /teknokapi/index.php?SO=21 [L,NC]
+RewriteRule ^gizlilik$ /teknokapi/index.php?SO=4 [L,NC]
+RewriteRule ^kargom-nerede$ /teknokapi/index.php?SO=14 [L,NC]
+RewriteRule ^mesafeli-satis-sozlesmesi$ /teknokapi/index.php?SO=5 [L,NC]
+RewriteRule ^iletisim$ /teknokapi/index.php?SO=16 [L,NC]
+RewriteRule ^teslimat$ /teknokapi/index.php?SO=6 [L,NC]
+RewriteRule ^iptal-iade-degisim$ /teknokapi/index.php?SO=7 [L,NC]
+
+RewriteRule ^kolyeler$  /teknokapi/index.php?SO=55  [L,NC]
+RewriteRule ^kolyeler/(.*)/(.*)$ /teknokapi/index.php?SO=58&id=$2 [L,NC]
+
+RewriteRule ^taki-setleri$  /teknokapi/index.php?SO=56  [L,NC]
+RewriteRule ^taki-setleri/(.*)/(.*)$ /teknokapi/index.php?SO=58&id=$2 [L,NC]
+
+RewriteRule ^bileklikler$  /teknokapi/index.php?SO=57  [L,NC]
+RewriteRule ^bileklikler/(.*)/(.*)$ /teknokapi/index.php?SO=58&id=$2 [L,NC]
